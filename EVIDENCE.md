@@ -9,8 +9,8 @@ This index describes the evidence currently present in the repository. The sprea
 
 | ID | Artifact | What it supports | Limit |
 | --- | --- | --- | --- |
-| E1 | `Tourist_Place_Search_150_Test_Cases.xlsx` | Test plan with 150 scenarios, preconditions, steps, expected results, and execution fields. | Current status: 4 `Pass`, 9 `Partial`, and 137 `Not Run`. The partial rows state which checks remain incomplete. |
-| E2 | Engine 2 automated test run (27 November 2026) | `npm run check` passed and `npm test` passed in an isolated copy using the suite's mock database. Four matching workbook cases are marked `Pass`; nine related cases are marked `Partial`. | This run did not connect to the live MySQL database or test the Engine 3 browser UI. Partial results do not certify the full test steps. |
+| E1 | `Tourist_Place_Search_150_Test_Cases.xlsx` | Test plan with 150 scenarios, preconditions, steps, and execution fields; includes a separate `Failed Cases` worksheet. | Current status: 4 `Pass`, 9 `Partial`, and 137 `Not Run`. No failed cases have been recorded in the current run; the separate worksheet has its headers and is ready for actual failures. |
+| E2 | Engine 2 automated test run (27 November 2026) | `npm run check` passed and `npm test` passed in an isolated copy using the suite's mock database. Four matching workbook cases are marked `Pass`; nine related cases are marked `Partial`. | This run did not connect to the live MySQL database or test the Engine 3 browser UI. No implementation files were modified. Partial results do not certify the full test steps. |
 | E3 | This GitHub repository | Shared project location and the workbook/evidence files. | The repository snapshot does not include the Engine 2/Engine 3 implementation source; the automated run used the source files supplied in the local project folder. |
 
 ## Case coverage
